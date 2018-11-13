@@ -74,6 +74,6 @@ server.del('/notification/:notificationid', function (req,res,next) {
 })
 
 mongoose.connect('mongodb://notification-db:27017/notifications');
-server.listen(3000,'127.0.0.1', function () {
+server.listen(3000,'0.0.0.0', function () {
     console.log('server listening at %s on port %s', '127.0.0.1', 3000);
 });
