@@ -5,7 +5,7 @@ metadata:
   labels:
     app: notification-api
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: notification-api
@@ -15,7 +15,7 @@ spec:
         app: notification-api
     spec:
       containers:
-      - name: notification-api
-        image: mathiskretz/notification-api
-        ports:
-        - containerPort: 3000
+        - name: notification-api
+          image: mathiskretz/notification-api
+          ports:
+            - containerPort: 3000

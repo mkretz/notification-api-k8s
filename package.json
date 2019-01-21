@@ -19,7 +19,6 @@
   "homepage": "https://github.com/mkretz/notification-api#readme",
   "dependencies": {
     "amqplib": "^0.5.2",
-    "cfenv": "^1.0.4",
     "mongoose": "^4.13.9",
     "restify": "^6.3.4",
     "restify-cors-middleware": "^1.1.0",
