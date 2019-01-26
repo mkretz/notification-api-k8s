@@ -1,7 +1,6 @@
 var restify = require("restify");
 var bodyParser = require("restify-plugins").bodyParser;
 var server = restify.createServer();
-var cfenv = require("cfenv");
 var packageJson = require("./package.json");
 var mongoose = require("mongoose");
 var Notification = require("./notification/model.js").Notification;
